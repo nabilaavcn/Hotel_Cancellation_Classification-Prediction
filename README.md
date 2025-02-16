@@ -1,6 +1,7 @@
-Optimizing Booking Management: Leveraging Machine Learning to Reduce Cancellations and Maximize Revenue
+# **Optimizing Booking Management:**
+## **Leveraging Machine Learning to Reduce Cancellations and Maximize Revenue**
 
-### <span style= "color:899481">**1.1 Background**
+### **Background**
 
 Sustained success in the fiercely competitive hospitality sector depends on maintaining customer satisfaction and increasing operational effectiveness. A hotel located in Portugal is looking to better understand its patrons' behaviour and pinpoint the reasons behind cancellations. The hotel hopes to improve customer satisfaction, reduce cancellations, and streamline operations by utilising data analytics and machine learning. Anonymised booking data is included in the dataset, which provides insights into the origins, booking trends, and preferences of customers.
 
@@ -11,15 +12,15 @@ For hotels, cancellations of reservations present a serious problem since they c
 1. Ineffective resource management, including parking spots and room assignments.
 
 
-### <span style= "color:899481">**1.2 Problem Statement**
+### **Problem Statement**
 How can machine learning models be leveraged to predict booking cancellations accurately, and what data-driven strategies can be implemented to optimize revenue and minimize overbooking risks?
 
-### <span style= "color:899481">**1.3 Approach**
+### **Approach**
 1. Data Exploration and Preprocessing
 1. Model Development & Evaluation
 1. Business Insights & Strategy Formulation
 
-### <span style= "color:899481">**1.4 Goal**
+### **Goal**
 
 To develop an accurate machine learning model for predicting booking cancellations and leverage its insights to implement data-driven strategies that:
 
@@ -28,3 +29,19 @@ To develop an accurate machine learning model for predicting booking cancellatio
 1. Enhance marketing efficiency by targeting high-retention customers.
 1. Improve pricing strategies through dynamic adjustments based on demand patterns.
 1. Strengthen customer engagement by identifying and addressing key cancellation drivers.
+
+### **Key Findings**
+
+1. F1 Optimization is the Best-Suited Approach:
+  The F1-optimized model provides the best balance between precision and recall, minimizing unnecessary costs from overbookings and lost revenue.
+  It ensures stable profitability while reducing misclassifications that could negatively impact revenue or customer experience.
+  Sensitivity analysis showed minimal variation in profitability, making it a reliable choice for business implementation.
+1. Non-Refundable Deposits: Strongest predictor of cancellations—consider flexible policies to reduce risk.
+1. Previous Cancellations: High recurrence—target past cancellers with incentives.
+1. Parking Availability: Correlated with cancellations—optimize pricing and availability.
+1. OTA Bookings: Higher cancellation rates—promote direct bookings with exclusive offers.
+1. Room Type Trends: Certain room types show higher cancellations—adjust pricing strategies.
+
+### **Author**
+Nabila Avicenna Azzahra
+
